@@ -22,10 +22,13 @@ void spital::adaugaReteta(reteta* r) {
     retete.push_back(r);
 }
 
+<<<<<<< HEAD
 void spital::adaugaConsultatie(consultatie* c) {
     consultatii.push_back(c);
 }
 
+=======
+>>>>>>> 33c6bc2da4bd318b1b3e1a815d91005fb1857fde
 // Stergere pacient
 void spital::stergePacient(const std::string& numeCautat, std::string prenumeCautat) {
     bool gasit = false;

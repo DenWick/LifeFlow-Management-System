@@ -9,7 +9,6 @@ class personalSpital {
         std::string nume;
         std::string prenume;
         std::string functie;
-        std::string prenume;
     public:
         personalSpital(const std::string& n, const std::string& p, const std::string& f);
 

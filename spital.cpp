@@ -22,13 +22,10 @@ void spital::adaugaReteta(reteta* r) {
     retete.push_back(r);
 }
 
-<<<<<<< HEAD
 void spital::adaugaConsultatie(consultatie* c) {
     consultatii.push_back(c);
 }
 
-=======
->>>>>>> 33c6bc2da4bd318b1b3e1a815d91005fb1857fde
 // Stergere pacient
 void spital::stergePacient(const std::string& numeCautat, std::string prenumeCautat) {
     bool gasit = false;
@@ -75,8 +72,8 @@ void spital::afisare() const {
     std::cout << "Consultatii:\n";
     for (const consultatie* c : consultatii) {
         std::cout << "| Data: " << c->get_data() << " | Ora: " << c->get_ora()
-                  << " | Medic: " << c->get_nume_medic()
-                  << " | Pacient: " << c->get_nume_pacient() << "\n";
+                  << " | Medic: " << c->get_nume_medic() << " " << c->get_prenume_medic()
+                  << " | Pacient: " << c->get_nume_pacient() << " " << c->get_prenume_pacient() << "\n";
     }
 }
 

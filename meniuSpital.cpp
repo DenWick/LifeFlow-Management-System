@@ -115,10 +115,7 @@ void meniuSpital::ruleaza() {
                 std::string numePacient;
                 std::string prenumePacient;
                 std::cout << "Nume pacient de sters: "; std::cin >> numePacient;
-<<<<<<< HEAD
                 std::cout << "Prenume pacient de sters: "; std::cin >> prenumePacient;
-=======
->>>>>>> 33c6bc2da4bd318b1b3e1a815d91005fb1857fde
                 spitalulMeu.stergePacient(numePacient, prenumePacient);
                 std::cout << "Pacient sters cu succes!\n";
             }

@@ -8,8 +8,9 @@ class personalSpital {
         int id;
         std::string nume;
         std::string functie;
+        std::string prenume;
     public:
-        personalSpital(const std::string& n, const std::string& f);
+        personalSpital(const std::string& n, const std::string& p, const std::string& f);
 
         int getId() const { return id; }
         

@@ -23,7 +23,7 @@ class spital {
         void adaugaReteta(reteta* r);
 
         // Stergere pacient
-        void stergePacient(const std::string& numePacient);
+        void stergePacient(const std::string& numePacient , std::string prenumePacient);
 
         // Modificare salariu medic
         void modificaSalariuMedic(int idCautat, int salariuNou);

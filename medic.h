@@ -7,7 +7,7 @@ class medic : virtual public personalSpital {
         std::string specializare;
         int salariu;
     public:
-        medic(const std::string& n, const std::string& f, const std::string& s, int sal);
+        medic(const std::string& n,const std::string& p, const std::string& f, const std::string& s, int sal);
 
         void afisare() const override;
 

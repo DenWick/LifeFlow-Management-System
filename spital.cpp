@@ -24,16 +24,21 @@ void spital::adaugaReteta(reteta* r) {
 }
 
 // Stergere pacient
-void spital::stergePacient(const std::string& numeCautat) {
-    auto it = std::find_if(pacienti.begin(), pacienti.end(),
-        [&numeCautat](const pacient* p) { return p->get_nume() == numeCautat; });
-
-    if (it != pacienti.end()) {
-        delete *it;
-        pacienti.erase(it);
-        std::cout << "Pacientul cu numele " << numeCautat << " a fost sters.\n";
-    } else {
-        throw IDNotFoundException();
+void spital::stergePacient(const std::string& numeCautat, std::string prenumeCautat) {
+    bool gasit = false;
+    for (auto it = pacienti.begin(); it != pacienti.end(); ) {
+        if ((*it)->get_nume() == numeCautat && (*it)->get_prenume() == prenumeCautat) {
+            delete *it;
+            it = pacienti.erase(it);
+            gasit = true;
+            std::cout << "Pacientul a fost externat.\n";
+        } else {
+            ++it;
+        }
+    }
+    
+    if (!gasit) {
+        throw std::runtime_error("Pacientul nu a fost gasit!");
     }
 }
 

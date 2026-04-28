@@ -7,8 +7,8 @@ class personalSpital {
         static int idCounter;
         int id;
         std::string nume;
-        std::string functie;
         std::string prenume;
+        std::string functie;
     public:
         personalSpital(const std::string& n, const std::string& p, const std::string& f);
 

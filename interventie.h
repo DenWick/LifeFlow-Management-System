@@ -8,5 +8,5 @@ class interventie : public consultatie {
         std::string sectie;
     public:
         interventie(const std::string& data, const std::string& ora, const std::string& nume_medic, const std::string& nume_pacient, const std::string& sectie);
-        /*std::string get_sectie();*/
+        std::string get_sectie() const;
     };

@@ -1,7 +1,6 @@
 #include "spital.h"
 #include "exceptiiSpital.h"
 #include <iostream>
-#include <algorithm>
 
 // Constructor
 spital::spital(const std::string& n) : numeSpital(n) {}
@@ -21,6 +20,10 @@ void spital::adaugaPacient(pacient* p) {
 
 void spital::adaugaReteta(reteta* r) {
     retete.push_back(r);
+}
+
+void spital::adaugaConsultatie(consultatie* c) {
+    consultatii.push_back(c);
 }
 
 // Stergere pacient
@@ -65,10 +68,21 @@ void spital::afisare() const {
     for (const reteta* r : retete) {
         r->afiseaza();
     }
+
+    std::cout << "Consultatii:\n";
+    for (const consultatie* c : consultatii) {
+        std::cout << "| Data: " << c->get_data() << " | Ora: " << c->get_ora()
+                  << " | Medic: " << c->get_nume_medic()
+                  << " | Pacient: " << c->get_nume_pacient() << "\n";
+    }
 }
 
 // Modificare salariu medic
 void spital::modificaSalariuMedic(int idCautat, int salariuNou) {
+    if (salariuNou < 0) {
+        throw NegativeSalaryException();
+    }
+
     bool gasit = false;
 
     for (auto p : personal) {
@@ -105,10 +119,14 @@ spital::~spital() {
     for (auto& r : retete) {
         delete r;
     }
+    for (auto& c : consultatii) {
+        delete c;
+    }
 
     personal.clear();
     sectii.clear();
     pacienti.clear();
     retete.clear();
+    consultatii.clear();
     std::cout << "Spitalul " << numeSpital << " a dat faliment!\n";
 }

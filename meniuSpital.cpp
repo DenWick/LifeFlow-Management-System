@@ -115,6 +115,7 @@ void meniuSpital::ruleaza() {
                 std::string numePacient;
                 std::string prenumePacient;
                 std::cout << "Nume pacient de sters: "; std::cin >> numePacient;
+                std::cout << "Prenume pacient de sters: "; std::cin >> prenumePacient;
                 spitalulMeu.stergePacient(numePacient, prenumePacient);
                 std::cout << "Pacient sters cu succes!\n";
             }
@@ -151,16 +152,19 @@ void meniuSpital::ruleaza() {
             }
             // Adaugare consultatie
             else if(optiune == 8){
-                std::string data, ora, numeMedic, numePacient;
+                std::string data, ora, numeMedic, prenumeMedic, numePacient, prenumePacient;
                 std::cout << "Data consultatie: "; std::cin >> data;
                 std::cout << "Ora consultatie: "; std::cin >> ora;
                 std::cout << "Nume medic: "; std::cin >> numeMedic;
+                std::cout << "Prenume medic: "; std::cin >> prenumeMedic;
                 std::cout << "Nume pacient: "; std::cin >> numePacient;
+                std::cout << "Prenume pacient: "; std::cin >> prenumePacient;
 
-                consultatie c(data, ora, numeMedic, numePacient);
-                std::cout << "Consultatie programata: " << c.get_data() << " la ora " 
-                          << c.get_ora() << " | Medic: " << c.get_nume_medic() 
-                          << " | Pacient: " << c.get_nume_pacient() << "\n";
+                consultatie* c = new consultatie(data, ora, numeMedic, prenumeMedic, numePacient, prenumePacient);
+                std::cout << "Consultatie programata: " << c->get_data() << " la ora "
+                          << c->get_ora() << " | Medic: " << c->get_nume_medic() << " " << c->get_prenume_medic()
+                          << " | Pacient: " << c->get_nume_pacient() << " " << c->get_prenume_pacient() << "\n";
+                spitalulMeu.adaugaConsultatie(c);
             }
 
         }

@@ -1,10 +1,11 @@
-#pragma once 
+#pragma once
 #include <vector>
 #include <string>
 #include "sectie.h"
 #include "personalSpital.h"
 #include "reteta.h"
 #include "pacient.h"
+#include "consultatie.h"
 
 class spital {
     private:
@@ -13,6 +14,7 @@ class spital {
         std::vector<sectie*> sectii;
         std::vector<pacient*> pacienti;
         std::vector<reteta*> retete;
+        std::vector<consultatie*> consultatii;
     public:
         explicit spital(const std::string& n);
 
@@ -21,6 +23,7 @@ class spital {
         void adaugaPacient(pacient* p);
         void adaugaSectie(sectie* s);
         void adaugaReteta(reteta* r);
+        void adaugaConsultatie(consultatie* c);
 
         // Stergere pacient
         void stergePacient(const std::string& numePacient , std::string prenumePacient);

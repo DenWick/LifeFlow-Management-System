@@ -105,6 +105,11 @@ void spital::modificaSalariuMedic(int idCautat, int salariuNou) {
     }
 }
 
+// Getter pentru numarul de membrii din personal
+int spital::getNumarPersonal() const {
+    return personal.size();
+}
+
 // Destructor
 spital::~spital() {
     for (auto& p : personal) {
@@ -128,5 +133,7 @@ spital::~spital() {
     pacienti.clear();
     retete.clear();
     consultatii.clear();
-    std::cout << "Spitalul " << numeSpital << " a dat faliment!\n";
+    if(spital::getNumarPersonal() == 0) {
+        std::cout << "Spitalul " << numeSpital << " a dat faliment!\n";
+    }
 }

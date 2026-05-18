@@ -24,6 +24,7 @@ class spital {
         void adaugaSectie(sectie* s);
         void adaugaReteta(reteta* r);
         void adaugaConsultatie(consultatie* c);
+        int getNumarPersonal() const;
 
         // Stergere pacient
         void stergePacient(const std::string& numePacient , std::string prenumePacient);

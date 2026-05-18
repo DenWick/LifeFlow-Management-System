@@ -30,7 +30,7 @@ void meniuSpital::afisareMeniu() const {
 
 // Functia de rulare a meniului
 void meniuSpital::ruleaza() {
-    int optiune = -1;
+    optiune = -1;
     while (true) { 
         afisareMeniu();
         
@@ -138,14 +138,28 @@ void meniuSpital::ruleaza() {
                 std::cout << "Sectie adaugata cu succes!\n";
             }
             // Adaugare reteta
-            else if(optiune == 7){
+            else if(optiune == 7) {
                 std::string denumire;
-                std::cout << "Denumire reteta: "; std::cin >> denumire;
+                int numar_medicamente;
+
+                std::cin.ignore();
+
+                std::cout << "Denumire reteta: ";
+                std::getline(std::cin, denumire);
+
+                std::cout << "Numar medicamente care alcatuiesc reteta: "; std::cin >> numar_medicamente;
+
+                std::cin.ignore();
+                
                 reteta* r = new reteta(denumire);
 
-                std::string medicament;
-                std::cout << "Adauga un medicament: "; std::cin >> medicament;
-                r->adaugaMedicament(medicament);
+                for (int i = 0 ; i < numar_medicamente; i++) {
+                    std::string medicament;
+                    std::cout << "Adauga medicamentul " << ( i + 1 ) << ": ";
+
+                    std::getline(std::cin, medicament);
+                    r->adaugaMedicament(medicament);
+                }
 
                 spitalulMeu.adaugaReteta(r);
                 std::cout << "Reteta adaugata cu succes!\n";
@@ -166,10 +180,13 @@ void meniuSpital::ruleaza() {
                           << " | Pacient: " << c->get_nume_pacient() << " " << c->get_prenume_pacient() << "\n";
                 spitalulMeu.adaugaConsultatie(c);
             }
-
         }
         catch (const std::exception& e) {
             std::cerr << "Eroare: " << e.what() << std::endl;
         }
     }
+}
+
+int meniuSpital::getOptiune() const {
+    return optiune;
 }

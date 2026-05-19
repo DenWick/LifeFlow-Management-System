@@ -1,0 +1,128 @@
+[
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\main.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\main.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/main.cpp",
+  "output": "CMakeFiles/oop.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\spital.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\spital.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/spital.cpp",
+  "output": "CMakeFiles/oop.dir/spital.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\medic.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\medic.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/medic.cpp",
+  "output": "CMakeFiles/oop.dir/medic.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\rezident.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\rezident.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/rezident.cpp",
+  "output": "CMakeFiles/oop.dir/rezident.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\asistent.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\asistent.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/asistent.cpp",
+  "output": "CMakeFiles/oop.dir/asistent.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\consultatie.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\consultatie.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/consultatie.cpp",
+  "output": "CMakeFiles/oop.dir/consultatie.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\pacient.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\pacient.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/pacient.cpp",
+  "output": "CMakeFiles/oop.dir/pacient.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\personalSpital.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\personalSpital.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/personalSpital.cpp",
+  "output": "CMakeFiles/oop.dir/personalSpital.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\interventie.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\interventie.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/interventie.cpp",
+  "output": "CMakeFiles/oop.dir/interventie.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\reteta.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\reteta.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/reteta.cpp",
+  "output": "CMakeFiles/oop.dir/reteta.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\sectie.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\sectie.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/sectie.cpp",
+  "output": "CMakeFiles/oop.dir/sectie.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\meniuSpital.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\meniuSpital.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/meniuSpital.cpp",
+  "output": "CMakeFiles/oop.dir/meniuSpital.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/oop.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\DatabaseManager.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\DatabaseManager.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/DatabaseManager.cpp",
+  "output": "CMakeFiles/oop.dir/DatabaseManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/SQLiteCpp.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -std=c++20 -o CMakeFiles\\SQLiteCpp.dir\\src\\Backup.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\_deps\\sqlitecpp-src\\src\\Backup.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-src/src/Backup.cpp",
+  "output": "_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/src/Backup.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/SQLiteCpp.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -std=c++20 -o CMakeFiles\\SQLiteCpp.dir\\src\\Column.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\_deps\\sqlitecpp-src\\src\\Column.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-src/src/Column.cpp",
+  "output": "_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/src/Column.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/SQLiteCpp.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -std=c++20 -o CMakeFiles\\SQLiteCpp.dir\\src\\Database.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\_deps\\sqlitecpp-src\\src\\Database.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-src/src/Database.cpp",
+  "output": "_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/src/Database.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/SQLiteCpp.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -std=c++20 -o CMakeFiles\\SQLiteCpp.dir\\src\\Exception.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\_deps\\sqlitecpp-src\\src\\Exception.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-src/src/Exception.cpp",
+  "output": "_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/src/Exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/SQLiteCpp.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -std=c++20 -o CMakeFiles\\SQLiteCpp.dir\\src\\Savepoint.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\_deps\\sqlitecpp-src\\src\\Savepoint.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-src/src/Savepoint.cpp",
+  "output": "_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/src/Savepoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/SQLiteCpp.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -std=c++20 -o CMakeFiles\\SQLiteCpp.dir\\src\\Statement.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\_deps\\sqlitecpp-src\\src\\Statement.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-src/src/Statement.cpp",
+  "output": "_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/src/Statement.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/SQLiteCpp.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Wswitch-enum -Wshadow -Wno-long-long -g -std=c++20 -o CMakeFiles\\SQLiteCpp.dir\\src\\Transaction.cpp.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\_deps\\sqlitecpp-src\\src\\Transaction.cpp",
+  "file": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-src/src/Transaction.cpp",
+  "output": "_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/src/Transaction.cpp.obj"
+},
+{
+  "directory": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build/sqlite3",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DSQLITE_ENABLE_COLUMN_METADATA @CMakeFiles/sqlite3.dir/includes_C.rsp -g -o CMakeFiles\\sqlite3.dir\\sqlite3.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\_deps\\sqlitecpp-src\\sqlite3\\sqlite3.c",
+  "file": "C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-src/sqlite3/sqlite3.c",
+  "output": "_deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/sqlite3.c.obj"
+}
+]

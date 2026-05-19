@@ -16,5 +16,9 @@ class reteta {
         void adaugaMedicament(const std::string& medicament);
         void afiseaza() const;
 
+        int getIdReteta() const { return idReteta; }
+        std::string getDenumire() const { return denumire; }
+        const std::vector<std::string>& getMedicamente() const { return medicamente; }
+
         ~reteta();
 };

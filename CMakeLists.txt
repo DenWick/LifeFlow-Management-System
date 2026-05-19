@@ -6,6 +6,15 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+# Descarcarea automată a bibliotecii SQLiteCpp 
+include(FetchContent)
+FetchContent_Declare(
+    SQLiteCpp
+    GIT_REPOSITORY https://github.com/SRombauts/SQLiteCpp.git
+    GIT_TAG        master
+)
+FetchContent_MakeAvailable(SQLiteCpp)
+
 # Treat warnings as errors by default
 if(DEFINED WARNINGS_AS_ERRORS)
     # already defined
@@ -14,6 +23,8 @@ elseif(DEFINED ENV{WARNINGS_AS_ERRORS})
 else()
     set(WARNINGS_AS_ERRORS ON)
 endif()
+
+
 
 # Main executable
 add_executable(${PROJECT_NAME} 
@@ -29,7 +40,11 @@ add_executable(${PROJECT_NAME}
     reteta.cpp
     sectie.cpp
     meniuSpital.cpp
+    DatabaseManager.cpp
 )
+
+# Legarea bibliotecii de executabil
+target_link_libraries(${PROJECT_NAME} PRIVATE SQLiteCpp sqlite3)
 
 if(GITHUB_ACTIONS)
     message("NOTE: GITHUB_ACTIONS defined")

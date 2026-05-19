@@ -8,3 +8,11 @@ void asistent::afisare() const {
     personalSpital::afisare();
     std::cout << "| Specializare: " << specializare << " |  Ore de lucru: " << oreLucru << std::endl;
 }
+
+std::string asistent::getSpecial() const {
+    return specializare;
+}
+
+std::string asistent::getOreLucru() const {
+    return oreLucru;
+}

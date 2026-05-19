@@ -6,6 +6,7 @@
 #include "interventie.h"
 #include "reteta.h"
 #include "sectie.h"
+#include "DatabaseManager.h"
 #include <iostream>
 #include <string>
 
@@ -29,12 +30,31 @@ void meniuSpital::afisareMeniu() const {
 }
 
 // Functia de rulare a meniului
-void meniuSpital::ruleaza() {
+void meniuSpital::ruleaza(DatabaseManager& db) {
     optiune = -1;
-    while (true) { 
+
+    for (auto* x : db.incarcaPersonal())    spitalulMeu.adaugaPersonal(x);
+    for (auto* x : db.incarcaPacienti())    spitalulMeu.adaugaPacient(x);
+    for (auto* x : db.incarcaConsultatii()) spitalulMeu.adaugaConsultatie(x);
+    for (auto* x : db.incarcaSectii())      spitalulMeu.adaugaSectie(x);
+    for (auto* x : db.incarcaRetete())      spitalulMeu.adaugaReteta(x);
+
+    while (true) {
         afisareMeniu();
-        
-        if (!(std::cin >> optiune)) {
+        std::cin >> optiune;
+
+        if (optiune == 0) {
+            std::cout << "Se salveaza datele in baza de date...\n";
+
+            db.salveazaTotSpitalul(
+                spitalulMeu.getPersonal(),
+                spitalulMeu.getPacienti(),
+                spitalulMeu.getConsultatii(),
+                spitalulMeu.getRetete(),
+                spitalulMeu.getSectii()
+            );
+            
+            std::cout << "Iesire din program. La revedere!\n";
             break; 
         }
 
@@ -117,6 +137,7 @@ void meniuSpital::ruleaza() {
                 std::cout << "Nume pacient de sters: "; std::cin >> numePacient;
                 std::cout << "Prenume pacient de sters: "; std::cin >> prenumePacient;
                 spitalulMeu.stergePacient(numePacient, prenumePacient);
+                db.stergePacientDinDB(numePacient, prenumePacient);
                 std::cout << "Pacient sters cu succes!\n";
             }
             // Adaugare sectie

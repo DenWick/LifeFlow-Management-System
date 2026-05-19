@@ -13,5 +13,8 @@ class medic : virtual public personalSpital {
 
         void setSalariu(int sal) { salariu = sal; }
 
+        int getSalariu() const;
+        std::string getSpecializare() const;
+
         virtual ~medic() {}
 };

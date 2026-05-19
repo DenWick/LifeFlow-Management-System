@@ -1,0 +1,3 @@
+C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-subbuild/CMakeFiles/sqlitecpp-populate.dir
+C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-subbuild/CMakeFiles/rebuild_cache.dir

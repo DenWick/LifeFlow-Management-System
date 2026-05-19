@@ -11,5 +11,9 @@ class sectie {
         explicit sectie(const std::string& n);
         void adaugaMedic(medic* m);
         void afisare() const;
+
+        std::string get_nume() const { return nume; }
+        const std::vector<medic*>& getMedici() const { return medici; }
+
         ~sectie();
 };

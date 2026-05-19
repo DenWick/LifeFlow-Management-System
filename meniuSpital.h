@@ -1,6 +1,7 @@
 #pragma once
 #include "spital.h"
 
+class DatabaseManager;
 class meniuSpital {
     private:
         spital spitalulMeu;
@@ -9,6 +10,6 @@ class meniuSpital {
     public:
     int getOptiune() const;
         meniuSpital();
-        void ruleaza();
+        void ruleaza(DatabaseManager& db);
         ~meniuSpital() = default;
 };

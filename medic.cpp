@@ -11,6 +11,13 @@ personalSpital(n, p, f), specializare(s){
     salariu = sal;
 }
 
+int medic::getSalariu() const{
+    return salariu;
+}
+std::string medic::getSpecializare() const {
+    return specializare;
+}
+
 void medic::afisare() const {
     personalSpital::afisare();
     std::cout << "| Specializare: " << specializare <<"| Salariu: " << salariu << std::endl;

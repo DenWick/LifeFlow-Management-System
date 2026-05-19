@@ -63,33 +63,78 @@ CMAKE_BINARY_DIR = C:\Users\oanad\Desktop\Proiect\build
 
 # The main recursive "all" target.
 all: CMakeFiles/oop.dir/all
+all: _deps/sqlitecpp-build/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/oop.dir/codegen
+codegen: _deps/sqlitecpp-build/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: _deps/sqlitecpp-build/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/oop.dir/clean
+clean: _deps/sqlitecpp-build/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory _deps/sqlitecpp-build
+
+# Recursive "all" directory target.
+_deps/sqlitecpp-build/all: _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/all
+_deps/sqlitecpp-build/all: _deps/sqlitecpp-build/sqlite3/all
+.PHONY : _deps/sqlitecpp-build/all
+
+# Recursive "codegen" directory target.
+_deps/sqlitecpp-build/codegen: _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/codegen
+_deps/sqlitecpp-build/codegen: _deps/sqlitecpp-build/sqlite3/codegen
+.PHONY : _deps/sqlitecpp-build/codegen
+
+# Recursive "preinstall" directory target.
+_deps/sqlitecpp-build/preinstall: _deps/sqlitecpp-build/sqlite3/preinstall
+.PHONY : _deps/sqlitecpp-build/preinstall
+
+# Recursive "clean" directory target.
+_deps/sqlitecpp-build/clean: _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/clean
+_deps/sqlitecpp-build/clean: _deps/sqlitecpp-build/sqlite3/clean
+.PHONY : _deps/sqlitecpp-build/clean
+
+#=============================================================================
+# Directory level rules for directory _deps/sqlitecpp-build/sqlite3
+
+# Recursive "all" directory target.
+_deps/sqlitecpp-build/sqlite3/all: _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/all
+.PHONY : _deps/sqlitecpp-build/sqlite3/all
+
+# Recursive "codegen" directory target.
+_deps/sqlitecpp-build/sqlite3/codegen: _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/codegen
+.PHONY : _deps/sqlitecpp-build/sqlite3/codegen
+
+# Recursive "preinstall" directory target.
+_deps/sqlitecpp-build/sqlite3/preinstall:
+.PHONY : _deps/sqlitecpp-build/sqlite3/preinstall
+
+# Recursive "clean" directory target.
+_deps/sqlitecpp-build/sqlite3/clean: _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/clean
+.PHONY : _deps/sqlitecpp-build/sqlite3/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/oop.dir
 
 # All Build rule for target.
-CMakeFiles/oop.dir/all:
+CMakeFiles/oop.dir/all: _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/all
+CMakeFiles/oop.dir/all: _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target oop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target oop"
 .PHONY : CMakeFiles/oop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/oop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oanad\Desktop\Proiect\build\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oanad\Desktop\Proiect\build\CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/oop.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oanad\Desktop\Proiect\build\CMakeFiles 0
 .PHONY : CMakeFiles/oop.dir/rule
@@ -101,13 +146,77 @@ oop: CMakeFiles/oop.dir/rule
 # codegen rule for target.
 CMakeFiles/oop.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target oop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Finished codegen for target oop"
 .PHONY : CMakeFiles/oop.dir/codegen
 
 # clean rule for target.
 CMakeFiles/oop.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/clean
 .PHONY : CMakeFiles/oop.dir/clean
+
+#=============================================================================
+# Target rules for target _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir
+
+# All Build rule for target.
+_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/all: _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/all
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\CMakeFiles\SQLiteCpp.dir\build.make _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\CMakeFiles\SQLiteCpp.dir\build.make _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target SQLiteCpp"
+.PHONY : _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/all
+
+# Build rule for subdir invocation for target.
+_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oanad\Desktop\Proiect\build\CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oanad\Desktop\Proiect\build\CMakeFiles 0
+.PHONY : _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/rule
+
+# Convenience name for target.
+SQLiteCpp: _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/rule
+.PHONY : SQLiteCpp
+
+# codegen rule for target.
+_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\CMakeFiles\SQLiteCpp.dir\build.make _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target SQLiteCpp"
+.PHONY : _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/codegen
+
+# clean rule for target.
+_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\CMakeFiles\SQLiteCpp.dir\build.make _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/clean
+.PHONY : _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/clean
+
+#=============================================================================
+# Target rules for target _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir
+
+# All Build rule for target.
+_deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/all:
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\sqlite3\CMakeFiles\sqlite3.dir\build.make _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/depend
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\sqlite3\CMakeFiles\sqlite3.dir\build.make _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=23,24 "Built target sqlite3"
+.PHONY : _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/all
+
+# Build rule for subdir invocation for target.
+_deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oanad\Desktop\Proiect\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oanad\Desktop\Proiect\build\CMakeFiles 0
+.PHONY : _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/rule
+
+# Convenience name for target.
+sqlite3: _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/rule
+.PHONY : sqlite3
+
+# codegen rule for target.
+_deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\sqlite3\CMakeFiles\sqlite3.dir\build.make _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=23,24 "Finished codegen for target sqlite3"
+.PHONY : _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/codegen
+
+# clean rule for target.
+_deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\sqlite3\CMakeFiles\sqlite3.dir\build.make _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/clean
+.PHONY : _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

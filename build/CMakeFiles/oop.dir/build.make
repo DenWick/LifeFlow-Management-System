@@ -72,172 +72,199 @@ CMakeFiles/oop.dir/codegen:
 .PHONY : CMakeFiles/oop.dir/codegen
 
 CMakeFiles/oop.dir/main.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/main.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/main.cpp.obj: C:/Users/oanad/Desktop/Proiect/main.cpp
 CMakeFiles/oop.dir/main.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop.dir/main.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/main.cpp.obj -MF CMakeFiles\oop.dir\main.cpp.obj.d -o CMakeFiles\oop.dir\main.cpp.obj -c C:\Users\oanad\Desktop\Proiect\main.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/main.cpp.obj -MF CMakeFiles\oop.dir\main.cpp.obj.d -o CMakeFiles\oop.dir\main.cpp.obj -c C:\Users\oanad\Desktop\Proiect\main.cpp
 
 CMakeFiles/oop.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/main.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\main.cpp > CMakeFiles\oop.dir\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\main.cpp > CMakeFiles\oop.dir\main.cpp.i
 
 CMakeFiles/oop.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/main.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\main.cpp -o CMakeFiles\oop.dir\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\main.cpp -o CMakeFiles\oop.dir\main.cpp.s
 
 CMakeFiles/oop.dir/spital.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/spital.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/spital.cpp.obj: C:/Users/oanad/Desktop/Proiect/spital.cpp
 CMakeFiles/oop.dir/spital.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop.dir/spital.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/spital.cpp.obj -MF CMakeFiles\oop.dir\spital.cpp.obj.d -o CMakeFiles\oop.dir\spital.cpp.obj -c C:\Users\oanad\Desktop\Proiect\spital.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/spital.cpp.obj -MF CMakeFiles\oop.dir\spital.cpp.obj.d -o CMakeFiles\oop.dir\spital.cpp.obj -c C:\Users\oanad\Desktop\Proiect\spital.cpp
 
 CMakeFiles/oop.dir/spital.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/spital.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\spital.cpp > CMakeFiles\oop.dir\spital.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\spital.cpp > CMakeFiles\oop.dir\spital.cpp.i
 
 CMakeFiles/oop.dir/spital.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/spital.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\spital.cpp -o CMakeFiles\oop.dir\spital.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\spital.cpp -o CMakeFiles\oop.dir\spital.cpp.s
 
 CMakeFiles/oop.dir/medic.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/medic.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/medic.cpp.obj: C:/Users/oanad/Desktop/Proiect/medic.cpp
 CMakeFiles/oop.dir/medic.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oop.dir/medic.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/medic.cpp.obj -MF CMakeFiles\oop.dir\medic.cpp.obj.d -o CMakeFiles\oop.dir\medic.cpp.obj -c C:\Users\oanad\Desktop\Proiect\medic.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/medic.cpp.obj -MF CMakeFiles\oop.dir\medic.cpp.obj.d -o CMakeFiles\oop.dir\medic.cpp.obj -c C:\Users\oanad\Desktop\Proiect\medic.cpp
 
 CMakeFiles/oop.dir/medic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/medic.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\medic.cpp > CMakeFiles\oop.dir\medic.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\medic.cpp > CMakeFiles\oop.dir\medic.cpp.i
 
 CMakeFiles/oop.dir/medic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/medic.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\medic.cpp -o CMakeFiles\oop.dir\medic.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\medic.cpp -o CMakeFiles\oop.dir\medic.cpp.s
 
 CMakeFiles/oop.dir/rezident.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/rezident.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/rezident.cpp.obj: C:/Users/oanad/Desktop/Proiect/rezident.cpp
 CMakeFiles/oop.dir/rezident.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop.dir/rezident.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/rezident.cpp.obj -MF CMakeFiles\oop.dir\rezident.cpp.obj.d -o CMakeFiles\oop.dir\rezident.cpp.obj -c C:\Users\oanad\Desktop\Proiect\rezident.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/rezident.cpp.obj -MF CMakeFiles\oop.dir\rezident.cpp.obj.d -o CMakeFiles\oop.dir\rezident.cpp.obj -c C:\Users\oanad\Desktop\Proiect\rezident.cpp
 
 CMakeFiles/oop.dir/rezident.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/rezident.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\rezident.cpp > CMakeFiles\oop.dir\rezident.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\rezident.cpp > CMakeFiles\oop.dir\rezident.cpp.i
 
 CMakeFiles/oop.dir/rezident.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/rezident.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\rezident.cpp -o CMakeFiles\oop.dir\rezident.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\rezident.cpp -o CMakeFiles\oop.dir\rezident.cpp.s
 
 CMakeFiles/oop.dir/asistent.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/asistent.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/asistent.cpp.obj: C:/Users/oanad/Desktop/Proiect/asistent.cpp
 CMakeFiles/oop.dir/asistent.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop.dir/asistent.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/asistent.cpp.obj -MF CMakeFiles\oop.dir\asistent.cpp.obj.d -o CMakeFiles\oop.dir\asistent.cpp.obj -c C:\Users\oanad\Desktop\Proiect\asistent.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/asistent.cpp.obj -MF CMakeFiles\oop.dir\asistent.cpp.obj.d -o CMakeFiles\oop.dir\asistent.cpp.obj -c C:\Users\oanad\Desktop\Proiect\asistent.cpp
 
 CMakeFiles/oop.dir/asistent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/asistent.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\asistent.cpp > CMakeFiles\oop.dir\asistent.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\asistent.cpp > CMakeFiles\oop.dir\asistent.cpp.i
 
 CMakeFiles/oop.dir/asistent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/asistent.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\asistent.cpp -o CMakeFiles\oop.dir\asistent.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\asistent.cpp -o CMakeFiles\oop.dir\asistent.cpp.s
 
 CMakeFiles/oop.dir/consultatie.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/consultatie.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/consultatie.cpp.obj: C:/Users/oanad/Desktop/Proiect/consultatie.cpp
 CMakeFiles/oop.dir/consultatie.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oop.dir/consultatie.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/consultatie.cpp.obj -MF CMakeFiles\oop.dir\consultatie.cpp.obj.d -o CMakeFiles\oop.dir\consultatie.cpp.obj -c C:\Users\oanad\Desktop\Proiect\consultatie.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/consultatie.cpp.obj -MF CMakeFiles\oop.dir\consultatie.cpp.obj.d -o CMakeFiles\oop.dir\consultatie.cpp.obj -c C:\Users\oanad\Desktop\Proiect\consultatie.cpp
 
 CMakeFiles/oop.dir/consultatie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/consultatie.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\consultatie.cpp > CMakeFiles\oop.dir\consultatie.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\consultatie.cpp > CMakeFiles\oop.dir\consultatie.cpp.i
 
 CMakeFiles/oop.dir/consultatie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/consultatie.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\consultatie.cpp -o CMakeFiles\oop.dir\consultatie.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\consultatie.cpp -o CMakeFiles\oop.dir\consultatie.cpp.s
 
 CMakeFiles/oop.dir/pacient.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/pacient.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/pacient.cpp.obj: C:/Users/oanad/Desktop/Proiect/pacient.cpp
 CMakeFiles/oop.dir/pacient.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oop.dir/pacient.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/pacient.cpp.obj -MF CMakeFiles\oop.dir\pacient.cpp.obj.d -o CMakeFiles\oop.dir\pacient.cpp.obj -c C:\Users\oanad\Desktop\Proiect\pacient.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/pacient.cpp.obj -MF CMakeFiles\oop.dir\pacient.cpp.obj.d -o CMakeFiles\oop.dir\pacient.cpp.obj -c C:\Users\oanad\Desktop\Proiect\pacient.cpp
 
 CMakeFiles/oop.dir/pacient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/pacient.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\pacient.cpp > CMakeFiles\oop.dir\pacient.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\pacient.cpp > CMakeFiles\oop.dir\pacient.cpp.i
 
 CMakeFiles/oop.dir/pacient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/pacient.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\pacient.cpp -o CMakeFiles\oop.dir\pacient.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\pacient.cpp -o CMakeFiles\oop.dir\pacient.cpp.s
 
 CMakeFiles/oop.dir/personalSpital.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/personalSpital.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/personalSpital.cpp.obj: C:/Users/oanad/Desktop/Proiect/personalSpital.cpp
 CMakeFiles/oop.dir/personalSpital.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oop.dir/personalSpital.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/personalSpital.cpp.obj -MF CMakeFiles\oop.dir\personalSpital.cpp.obj.d -o CMakeFiles\oop.dir\personalSpital.cpp.obj -c C:\Users\oanad\Desktop\Proiect\personalSpital.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/personalSpital.cpp.obj -MF CMakeFiles\oop.dir\personalSpital.cpp.obj.d -o CMakeFiles\oop.dir\personalSpital.cpp.obj -c C:\Users\oanad\Desktop\Proiect\personalSpital.cpp
 
 CMakeFiles/oop.dir/personalSpital.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/personalSpital.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\personalSpital.cpp > CMakeFiles\oop.dir\personalSpital.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\personalSpital.cpp > CMakeFiles\oop.dir\personalSpital.cpp.i
 
 CMakeFiles/oop.dir/personalSpital.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/personalSpital.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\personalSpital.cpp -o CMakeFiles\oop.dir\personalSpital.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\personalSpital.cpp -o CMakeFiles\oop.dir\personalSpital.cpp.s
 
 CMakeFiles/oop.dir/interventie.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/interventie.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/interventie.cpp.obj: C:/Users/oanad/Desktop/Proiect/interventie.cpp
 CMakeFiles/oop.dir/interventie.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oop.dir/interventie.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/interventie.cpp.obj -MF CMakeFiles\oop.dir\interventie.cpp.obj.d -o CMakeFiles\oop.dir\interventie.cpp.obj -c C:\Users\oanad\Desktop\Proiect\interventie.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/interventie.cpp.obj -MF CMakeFiles\oop.dir\interventie.cpp.obj.d -o CMakeFiles\oop.dir\interventie.cpp.obj -c C:\Users\oanad\Desktop\Proiect\interventie.cpp
 
 CMakeFiles/oop.dir/interventie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/interventie.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\interventie.cpp > CMakeFiles\oop.dir\interventie.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\interventie.cpp > CMakeFiles\oop.dir\interventie.cpp.i
 
 CMakeFiles/oop.dir/interventie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/interventie.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\interventie.cpp -o CMakeFiles\oop.dir\interventie.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\interventie.cpp -o CMakeFiles\oop.dir\interventie.cpp.s
 
 CMakeFiles/oop.dir/reteta.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/reteta.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/reteta.cpp.obj: C:/Users/oanad/Desktop/Proiect/reteta.cpp
 CMakeFiles/oop.dir/reteta.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oop.dir/reteta.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/reteta.cpp.obj -MF CMakeFiles\oop.dir\reteta.cpp.obj.d -o CMakeFiles\oop.dir\reteta.cpp.obj -c C:\Users\oanad\Desktop\Proiect\reteta.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/reteta.cpp.obj -MF CMakeFiles\oop.dir\reteta.cpp.obj.d -o CMakeFiles\oop.dir\reteta.cpp.obj -c C:\Users\oanad\Desktop\Proiect\reteta.cpp
 
 CMakeFiles/oop.dir/reteta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/reteta.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\reteta.cpp > CMakeFiles\oop.dir\reteta.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\reteta.cpp > CMakeFiles\oop.dir\reteta.cpp.i
 
 CMakeFiles/oop.dir/reteta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/reteta.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\reteta.cpp -o CMakeFiles\oop.dir\reteta.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\reteta.cpp -o CMakeFiles\oop.dir\reteta.cpp.s
 
 CMakeFiles/oop.dir/sectie.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/sectie.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/sectie.cpp.obj: C:/Users/oanad/Desktop/Proiect/sectie.cpp
 CMakeFiles/oop.dir/sectie.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oop.dir/sectie.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/sectie.cpp.obj -MF CMakeFiles\oop.dir\sectie.cpp.obj.d -o CMakeFiles\oop.dir\sectie.cpp.obj -c C:\Users\oanad\Desktop\Proiect\sectie.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/sectie.cpp.obj -MF CMakeFiles\oop.dir\sectie.cpp.obj.d -o CMakeFiles\oop.dir\sectie.cpp.obj -c C:\Users\oanad\Desktop\Proiect\sectie.cpp
 
 CMakeFiles/oop.dir/sectie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/sectie.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\sectie.cpp > CMakeFiles\oop.dir\sectie.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\sectie.cpp > CMakeFiles\oop.dir\sectie.cpp.i
 
 CMakeFiles/oop.dir/sectie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/sectie.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\sectie.cpp -o CMakeFiles\oop.dir\sectie.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\sectie.cpp -o CMakeFiles\oop.dir\sectie.cpp.s
 
 CMakeFiles/oop.dir/meniuSpital.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/meniuSpital.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
 CMakeFiles/oop.dir/meniuSpital.cpp.obj: C:/Users/oanad/Desktop/Proiect/meniuSpital.cpp
 CMakeFiles/oop.dir/meniuSpital.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/oop.dir/meniuSpital.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/meniuSpital.cpp.obj -MF CMakeFiles\oop.dir\meniuSpital.cpp.obj.d -o CMakeFiles\oop.dir\meniuSpital.cpp.obj -c C:\Users\oanad\Desktop\Proiect\meniuSpital.cpp
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/meniuSpital.cpp.obj -MF CMakeFiles\oop.dir\meniuSpital.cpp.obj.d -o CMakeFiles\oop.dir\meniuSpital.cpp.obj -c C:\Users\oanad\Desktop\Proiect\meniuSpital.cpp
 
 CMakeFiles/oop.dir/meniuSpital.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/meniuSpital.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\meniuSpital.cpp > CMakeFiles\oop.dir\meniuSpital.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\meniuSpital.cpp > CMakeFiles\oop.dir\meniuSpital.cpp.i
 
 CMakeFiles/oop.dir/meniuSpital.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/meniuSpital.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\meniuSpital.cpp -o CMakeFiles\oop.dir\meniuSpital.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\meniuSpital.cpp -o CMakeFiles\oop.dir\meniuSpital.cpp.s
+
+CMakeFiles/oop.dir/DatabaseManager.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/DatabaseManager.cpp.obj: CMakeFiles/oop.dir/includes_CXX.rsp
+CMakeFiles/oop.dir/DatabaseManager.cpp.obj: C:/Users/oanad/Desktop/Proiect/DatabaseManager.cpp
+CMakeFiles/oop.dir/DatabaseManager.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/oop.dir/DatabaseManager.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/DatabaseManager.cpp.obj -MF CMakeFiles\oop.dir\DatabaseManager.cpp.obj.d -o CMakeFiles\oop.dir\DatabaseManager.cpp.obj -c C:\Users\oanad\Desktop\Proiect\DatabaseManager.cpp
+
+CMakeFiles/oop.dir/DatabaseManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/DatabaseManager.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oanad\Desktop\Proiect\DatabaseManager.cpp > CMakeFiles\oop.dir\DatabaseManager.cpp.i
+
+CMakeFiles/oop.dir/DatabaseManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/DatabaseManager.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oanad\Desktop\Proiect\DatabaseManager.cpp -o CMakeFiles\oop.dir\DatabaseManager.cpp.s
 
 # Object files for target oop
 oop_OBJECTS = \
@@ -252,7 +279,8 @@ oop_OBJECTS = \
 "CMakeFiles/oop.dir/interventie.cpp.obj" \
 "CMakeFiles/oop.dir/reteta.cpp.obj" \
 "CMakeFiles/oop.dir/sectie.cpp.obj" \
-"CMakeFiles/oop.dir/meniuSpital.cpp.obj"
+"CMakeFiles/oop.dir/meniuSpital.cpp.obj" \
+"CMakeFiles/oop.dir/DatabaseManager.cpp.obj"
 
 # External object files for target oop
 oop_EXTERNAL_OBJECTS =
@@ -269,11 +297,14 @@ oop.exe: CMakeFiles/oop.dir/interventie.cpp.obj
 oop.exe: CMakeFiles/oop.dir/reteta.cpp.obj
 oop.exe: CMakeFiles/oop.dir/sectie.cpp.obj
 oop.exe: CMakeFiles/oop.dir/meniuSpital.cpp.obj
+oop.exe: CMakeFiles/oop.dir/DatabaseManager.cpp.obj
 oop.exe: CMakeFiles/oop.dir/build.make
+oop.exe: _deps/sqlitecpp-build/libSQLiteCpp.a
+oop.exe: _deps/sqlitecpp-build/sqlite3/libsqlite3.a
 oop.exe: CMakeFiles/oop.dir/linkLibs.rsp
 oop.exe: CMakeFiles/oop.dir/objects1.rsp
 oop.exe: CMakeFiles/oop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable oop.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\oanad\Desktop\Proiect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable oop.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oop.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

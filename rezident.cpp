@@ -13,3 +13,7 @@ void rezident::afisare() const {
     std::cout << "| Specializare: " << medic::specializare << " | Salariu: " << medic::salariu 
               << " | Ore de lucru: " << asistent::oreLucru << " | An rezidentiat: " << anRezidentiat << std::endl;
 }
+
+int rezident::getAn() const {
+    return anRezidentiat;
+}

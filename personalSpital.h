@@ -13,6 +13,11 @@ class personalSpital {
         personalSpital(const std::string& n, const std::string& p, const std::string& f);
 
         int getId() const { return id; }
+        void setId(int idNou) { id = idNou; }
+
+        std::string getNume() const { return nume; }
+        std::string getPrenume() const { return prenume; }
+        std::string getFunctie() const { return functie; }
         
         virtual void afisare() const = 0;
 

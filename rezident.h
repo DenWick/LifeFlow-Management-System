@@ -12,6 +12,8 @@ class rezident: virtual public medic, virtual public asistent {
 
         void afisare() const override;
 
+        int getAn() const;
+
         virtual ~rezident() {}
 };
 

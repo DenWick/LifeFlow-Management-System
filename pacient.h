@@ -11,5 +11,6 @@ class pacient {
         pacient(const std::string& n,const std::string& pre, const int v);
         std::string get_nume() const;
         std::string get_prenume() const;
+        int get_varsta() const { return varsta; }
         void afisare() const;
 };

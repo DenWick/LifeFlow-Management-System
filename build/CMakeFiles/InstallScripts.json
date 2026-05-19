@@ -1,7 +1,9 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/oanad/Desktop/Proiect/build/cmake_install.cmake"
+		"C:/Users/oanad/Desktop/Proiect/build/cmake_install.cmake",
+		"C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build/cmake_install.cmake",
+		"C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build/sqlite3/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

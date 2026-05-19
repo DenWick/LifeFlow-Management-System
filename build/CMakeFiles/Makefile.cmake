@@ -7,12 +7,14 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeRCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -20,6 +22,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -39,11 +50,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake"
   "C:/Users/oanad/Desktop/Proiect/CMakeLists.txt"
   "CMakeFiles/4.3.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.3.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.1/CMakeRCCompiler.cmake"
   "CMakeFiles/4.3.1/CMakeSystem.cmake"
+  "_deps/sqlitecpp-src/CMakeLists.txt"
+  "_deps/sqlitecpp-src/cmake/SQLiteCppConfig.cmake.in"
+  "_deps/sqlitecpp-src/sqlite3/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -54,10 +69,17 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "_deps/sqlitecpp-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/sqlitecpp-build/cmake/SQLiteCppConfigVersion.cmake"
+  "_deps/sqlitecpp-build/cmake/SQLiteCppConfig.cmake"
+  "_deps/sqlitecpp-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/sqlitecpp-build/sqlite3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/oop.dir/DependInfo.cmake"
+  "_deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/DependInfo.cmake"
+  "_deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/DependInfo.cmake"
   )

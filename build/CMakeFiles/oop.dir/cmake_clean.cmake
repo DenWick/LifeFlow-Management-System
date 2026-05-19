@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/oop.dir/DatabaseManager.cpp.obj"
+  "CMakeFiles/oop.dir/DatabaseManager.cpp.obj.d"
   "CMakeFiles/oop.dir/asistent.cpp.obj"
   "CMakeFiles/oop.dir/asistent.cpp.obj.d"
   "CMakeFiles/oop.dir/consultatie.cpp.obj"

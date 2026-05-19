@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/oanad/Desktop/Proiect/DatabaseManager.cpp" "CMakeFiles/oop.dir/DatabaseManager.cpp.obj" "gcc" "CMakeFiles/oop.dir/DatabaseManager.cpp.obj.d"
   "C:/Users/oanad/Desktop/Proiect/asistent.cpp" "CMakeFiles/oop.dir/asistent.cpp.obj" "gcc" "CMakeFiles/oop.dir/asistent.cpp.obj.d"
   "C:/Users/oanad/Desktop/Proiect/consultatie.cpp" "CMakeFiles/oop.dir/consultatie.cpp.obj" "gcc" "CMakeFiles/oop.dir/consultatie.cpp.obj.d"
   "C:/Users/oanad/Desktop/Proiect/interventie.cpp" "CMakeFiles/oop.dir/interventie.cpp.obj" "gcc" "CMakeFiles/oop.dir/interventie.cpp.obj.d"

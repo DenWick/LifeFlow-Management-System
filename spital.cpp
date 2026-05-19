@@ -110,6 +110,10 @@ int spital::getNumarPersonal() const {
     return personal.size();
 }
 
+const std::vector<personalSpital*>& spital::getPersonal() const {
+    return personal;
+}
+
 // Destructor
 spital::~spital() {
     for (auto& p : personal) {
@@ -133,7 +137,4 @@ spital::~spital() {
     pacienti.clear();
     retete.clear();
     consultatii.clear();
-    if(spital::getNumarPersonal() == 0) {
-        std::cout << "Spitalul " << numeSpital << " a dat faliment!\n";
-    }
 }

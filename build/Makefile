@@ -86,7 +86,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\" \"headers\" \"libraries\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -172,6 +172,56 @@ oop: cmake_check_build_system
 oop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/build
 .PHONY : oop/fast
+
+#=============================================================================
+# Target rules for targets named SQLiteCpp
+
+# Build rule for target.
+SQLiteCpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SQLiteCpp
+.PHONY : SQLiteCpp
+
+# fast build rule for target.
+SQLiteCpp/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\CMakeFiles\SQLiteCpp.dir\build.make _deps/sqlitecpp-build/CMakeFiles/SQLiteCpp.dir/build
+.PHONY : SQLiteCpp/fast
+
+#=============================================================================
+# Target rules for targets named sqlite3
+
+# Build rule for target.
+sqlite3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqlite3
+.PHONY : sqlite3
+
+# fast build rule for target.
+sqlite3/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\sqlitecpp-build\sqlite3\CMakeFiles\sqlite3.dir\build.make _deps/sqlitecpp-build/sqlite3/CMakeFiles/sqlite3.dir/build
+.PHONY : sqlite3/fast
+
+DatabaseManager.obj: DatabaseManager.cpp.obj
+.PHONY : DatabaseManager.obj
+
+# target to build an object file
+DatabaseManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/DatabaseManager.cpp.obj
+.PHONY : DatabaseManager.cpp.obj
+
+DatabaseManager.i: DatabaseManager.cpp.i
+.PHONY : DatabaseManager.i
+
+# target to preprocess a source file
+DatabaseManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/DatabaseManager.cpp.i
+.PHONY : DatabaseManager.cpp.i
+
+DatabaseManager.s: DatabaseManager.cpp.s
+.PHONY : DatabaseManager.s
+
+# target to generate assembly for a file
+DatabaseManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/DatabaseManager.cpp.s
+.PHONY : DatabaseManager.cpp.s
 
 asistent.obj: asistent.cpp.obj
 .PHONY : asistent.obj
@@ -473,7 +523,12 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... SQLiteCpp
 	@echo ... oop
+	@echo ... sqlite3
+	@echo ... DatabaseManager.obj
+	@echo ... DatabaseManager.i
+	@echo ... DatabaseManager.s
 	@echo ... asistent.obj
 	@echo ... asistent.i
 	@echo ... asistent.s

@@ -6,17 +6,33 @@
 #include "reteta.h"
 #include "pacient.h"
 #include "consultatie.h"
+#include "repository.h"
+#include "observer.h"
 
 class spital {
     protected:
         std::string numeSpital;
-        std::vector<personalSpital*> personal;
-        std::vector<sectie*> sectii;
-        std::vector<pacient*> pacienti;
-        std::vector<reteta*> retete;
-        std::vector<consultatie*> consultatii;
+        repository<personalSpital> personal;
+        repository<sectie> sectii;
+        repository<pacient> pacienti;
+        repository<reteta> retete;
+        repository<consultatie> consultatii;
+        std::vector<IObserver*> observatori;
+        
     public:
         explicit spital(const std::string& n);
+
+        void ataseazaObservator(IObserver* obs) {
+            observatori.push_back(obs);
+        }
+        void notifica(const std::string& mesaj) {
+            for( auto* obs : observatori) {
+                obs -> onEvent(mesaj);
+            }
+        }
+
+        spital(const spital&) = delete;
+        spital& operator=(const spital&) = delete;
 
         // Metode de adaugare
         void adaugaPersonal(personalSpital* p);
@@ -24,12 +40,14 @@ class spital {
         void adaugaSectie(sectie* s);
         void adaugaReteta(reteta* r);
         void adaugaConsultatie(consultatie* c);
+        
         int getNumarPersonal() const;
+        
         const std::vector<personalSpital*>& getPersonal() const;
-        const std::vector<pacient*>& getPacienti() const { return pacienti; }
-        const std::vector<consultatie*>& getConsultatii() const { return consultatii; }
-        const std::vector<reteta*>& getRetete() const { return retete; }
-        const std::vector<sectie*>& getSectii() const { return sectii; }
+        const std::vector<pacient*>& getPacienti() const;
+        const std::vector<consultatie*>& getConsultatii() const;
+        const std::vector<reteta*>& getRetete() const;
+        const std::vector<sectie*>& getSectii() const;
 
         // Stergere pacient
         void stergePacient(const std::string& numePacient , std::string prenumePacient);

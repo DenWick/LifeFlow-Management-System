@@ -225,4 +225,13 @@ CMakeFiles/oop.dir/main.cpp.obj: C:\Users\oanad\Desktop\Proiect\main.cpp \
  C:\Users\oanad\Desktop\Proiect\sectie.h \
  C:\Users\oanad\Desktop\Proiect\medic.h \
  C:\Users\oanad\Desktop\Proiect\meniuSpital.h \
- C:\Users\oanad\Desktop\Proiect\spital.h
+ C:\Users\oanad\Desktop\Proiect\spital.h \
+ C:\Users\oanad\Desktop\Proiect\repository.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/algorithm \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_algo.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
+ C:\Users\oanad\Desktop\Proiect\observer.h

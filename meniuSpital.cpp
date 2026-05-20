@@ -7,6 +7,7 @@
 #include "reteta.h"
 #include "sectie.h"
 #include "DatabaseManager.h"
+#include "personalFactory.h"
 #include <iostream>
 #include <string>
 
@@ -72,34 +73,34 @@ void meniuSpital::ruleaza(DatabaseManager& db) {
                 int tip; std::cin >> tip;
 
                 std::string nume, prenume;
-                std::cout << "Nume: "; std::cin >> nume >> prenume;
+                std::cout << "Nume si Prenume: "; 
+                std::cin >> nume >> prenume;
 
                 if (tip == 1) {
-                    std::string spec;
-                    std::string functie = "Medic";
-                    int sal;
+                    std::string spec; int sal;
                     std::cout << "Specializare: "; std::cin >> spec;
                     std::cout << "Salariu: "; std::cin >> sal;
-                    // Upcasting automat: Medic* devine personalSpital*
-                    spitalulMeu.adaugaPersonal(new medic(nume, prenume, functie, spec, sal));
+                    
+                    personalSpital* m = PersonalFactory::creeazaMedic(nume, prenume, spec, sal);
+                    spitalulMeu.adaugaPersonal(m);
                 } 
                 else if (tip == 2) {
                     std::string sectie;
-                    std::string functie = "Asistent";
                     std::cout << "Sectie: "; std::cin >> sectie;
-                    spitalulMeu.adaugaPersonal(new asistent(nume, prenume, functie, sectie, "08:00-16:00"));
+                    
+                    personalSpital* a = PersonalFactory::creeazaAsistent(nume, prenume, sectie);
+                    spitalulMeu.adaugaPersonal(a);
                 } 
                 else if (tip == 3) {
-                    std::string spec, sectie;
-                    std::string functie = "Rezident";
-                    int an;
+                    std::string spec, sectie; int an;
                     std::cout << "Specializare: "; std::cin >> spec;
                     std::cout << "Sectie: "; std::cin >> sectie;
                     std::cout << "An rezidentiat: "; std::cin >> an;
-                    // Rezident moștenește de la ambele, deci e și personalSpital
-                    spitalulMeu.adaugaPersonal(new rezident(nume, prenume, functie, spec, 5000, sectie, "08:00", an));
+                    
+                    personalSpital* r = PersonalFactory::creeazaRezident(nume, prenume, spec, sectie, an);
+                    spitalulMeu.adaugaPersonal(r);
                 }
-                std::cout << "Adaugat cu succes!\n";
+                std::cout << "Angajatul a fost adaugat cu succes!\n";
             }
             // Adaugare pacient
             else if(optiune == 2){

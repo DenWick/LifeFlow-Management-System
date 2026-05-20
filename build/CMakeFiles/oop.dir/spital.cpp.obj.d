@@ -161,4 +161,16 @@ CMakeFiles/oop.dir/spital.cpp.obj: \
  C:\Users\oanad\Desktop\Proiect\reteta.h \
  C:\Users\oanad\Desktop\Proiect\pacient.h \
  C:\Users\oanad\Desktop\Proiect\consultatie.h \
+ C:\Users\oanad\Desktop\Proiect\repository.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/algorithm \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_algo.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_algobase.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
+ C:\Users\oanad\Desktop\Proiect\observer.h \
  C:\Users\oanad\Desktop\Proiect\exceptiiSpital.h

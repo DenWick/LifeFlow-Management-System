@@ -28,7 +28,7 @@ class DatabaseManager {
         const std::vector<reteta*>& ret,
         const std::vector<sectie*>& sec
         );
-
+        
         std::vector<personalSpital*> incarcaPersonal();
         std::vector<pacient*> incarcaPacienti();
         std::vector<consultatie*> incarcaConsultatii();

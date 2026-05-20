@@ -15,16 +15,50 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(SQLiteCpp)
 
-# Treat warnings as errors by default
+# Descarcare GLFW
+FetchContent_Declare(
+    glfw
+    GIT_REPOSITORY https://github.com/glfw/glfw.git
+    GIT_TAG 3.3.8
+)
+set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(glfw)
+
+# Descarcare Dear ImGui
+FetchContent_Declare(
+    imgui
+    GIT_REPOSITORY https://github.com/ocornut/imgui.git
+    GIT_TAG v1.90.4
+)
+FetchContent_MakeAvailable(imgui)
+
+# Configurare ImGui
+set(IMGUI_DIR ${imgui_SOURCE_DIR})
+add_library(imgui STATIC
+    ${IMGUI_DIR}/imgui.cpp
+    ${IMGUI_DIR}/imgui_draw.cpp
+    ${IMGUI_DIR}/imgui_tables.cpp
+    ${IMGUI_DIR}/imgui_widgets.cpp
+    ${IMGUI_DIR}/backends/imgui_impl_glfw.cpp
+    ${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
+)
+
+target_include_directories(imgui PUBLIC 
+    ${IMGUI_DIR}
+    ${IMGUI_DIR}/backends
+)
+
+# Legam ImGui de sistemul de GLFW
+target_link_libraries(imgui PUBLIC glfw)
+
 if(DEFINED WARNINGS_AS_ERRORS)
-    # already defined
 elseif(DEFINED ENV{WARNINGS_AS_ERRORS})
     set(WARNINGS_AS_ERRORS $ENV{WARNINGS_AS_ERRORS})
 else()
     set(WARNINGS_AS_ERRORS ON)
 endif()
-
-
 
 # Main executable
 add_executable(${PROJECT_NAME} 
@@ -44,7 +78,7 @@ add_executable(${PROJECT_NAME}
 )
 
 # Legarea bibliotecii de executabil
-target_link_libraries(${PROJECT_NAME} PRIVATE SQLiteCpp sqlite3)
+target_link_libraries(oop PRIVATE SQLiteCpp sqlite3 imgui glfw opengl32)
 
 if(GITHUB_ACTIONS)
     message("NOTE: GITHUB_ACTIONS defined")

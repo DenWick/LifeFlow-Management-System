@@ -176,7 +176,7 @@ void DatabaseManager::salveazaTotSpitalul(
     try {
         salveazaPersonal(pers);
 
-        //  Salvare Pacienti
+        // Salvare Pacienti
         db.exec("DELETE FROM Pacienti");
         db.exec("DELETE FROM sqlite_sequence WHERE name='Pacienti'");
         for (auto* p : pac) {
@@ -242,6 +242,23 @@ void DatabaseManager::stergePacientDinDB(const std::string& nume, const std::str
     }
 }
 
+void DatabaseManager::stergeConsultatieDinDB(const std::string& nume_medic, const std::string& prenume_medic, const std::string& nume_pacient, const std::string& prenume_pacient, const std::string& data, const std::string& ora) {
+    try {
+        SQLite::Statement query(db, "DELETE FROM Consultatii WHERE nume_medic = ? AND prenume_medic = ? AND nume_pacient = ? AND prenume_pacient = ? AND data = ? AND ora = ?");
+        query.bind(1, nume_medic);
+        query.bind(2, prenume_medic);
+        query.bind(3, nume_pacient);
+        query.bind(4, prenume_pacient);
+        query.bind(5, data);
+        query.bind(6, ora);
+        query.exec();
+        std::cout << "[DB] Consultatia a fost stearsa cu succes din baza de date!\n";
+    } catch (std::exception& e) {
+        std::cout << "[DB] Eroare la stergerea din baza de date: " << e.what() << "\n";
+    }
+}
+
+
 std::vector<pacient*> DatabaseManager::incarcaPacienti() {
     std::vector<pacient*> lista;
     try {
@@ -295,4 +312,22 @@ std::vector<reteta*> DatabaseManager::incarcaRetete() {
         }
     } catch(...) {}
     return lista;
+}
+
+void DatabaseManager::actualizeazaSalariuMedicInDB(int idMedic, int salariuNou) {
+    try {
+        SQLite::Statement updateMedici(db, "UPDATE Medici SET salariu = ? WHERE id = ?");
+        updateMedici.bind(1, salariuNou);
+        updateMedici.bind(2, idMedic);
+        updateMedici.exec();
+
+        SQLite::Statement updateRezidenti(db, "UPDATE Rezidenti SET salariu = ? WHERE id = ?");
+        updateRezidenti.bind(1, salariuNou);
+        updateRezidenti.bind(2, idMedic);
+        updateRezidenti.exec();
+        
+        std::cout << "[DB] Salariu actualizat cu succes în baza de date!\n";
+    } catch (std::exception& e) {
+        std::cerr << "[DB] Eroare la actualizarea salariului: " << e.what() << "\n";
+    }
 }

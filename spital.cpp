@@ -83,6 +83,29 @@ void spital::afisare() const {
     }
 }
 
+// Stergere consultatie
+void spital::stergeConsultatie(const std::string& nume_medic, const std::string& prenume_medic, const std::string& nume_pacient, const std::string& prenume_pacient, const std::string& data, const std::string& ora) {
+    bool gasit = false;
+    
+    for (auto* c : consultatii.getToate()) {
+        if (c->get_nume_medic() == nume_medic && c->get_prenume_medic() == prenume_medic &&
+            c->get_nume_pacient() == nume_pacient && c->get_prenume_pacient() == prenume_pacient &&
+            c->get_data() == data && c->get_ora() == ora) {
+            
+            consultatii.elimina(c); 
+            gasit = true;
+            
+            notifica("Consultatia pacientului " + nume_pacient + " " + prenume_pacient + " la dr. " + nume_medic + " " + prenume_medic + " a fost finalizata.");
+            break; 
+        }
+    }
+    
+    if (!gasit) {
+        throw std::runtime_error("Consultatia nu a fost gasita!");
+    }
+}
+
+
 // Modificare salariu medic
 void spital::modificaSalariuMedic(int idCautat, int salariuNou) {
     if (salariuNou < 0) {

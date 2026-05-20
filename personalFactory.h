@@ -1,5 +1,5 @@
 #pragma once
-#include "personalSpital.h"
+#include "personalSpital.h" 
 #include "medic.h"
 #include "asistent.h"
 #include "rezident.h"

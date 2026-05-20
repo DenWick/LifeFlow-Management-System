@@ -42,6 +42,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/oanad/Desktop/Proiect/build/_deps/sqlitecpp-build/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-build/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/oanad/Desktop/Proiect/build/oop.exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/oop.exe" AND

@@ -13,6 +13,7 @@ std::string pacient::get_prenume() const {
     return prenume;
 }
 
+
 // Metoda pentru afișarea informațiilor despre pacient
 void pacient::afisare() const {
     std::cout << "| Nume: " << nume << " " << prenume << " | Varsta: " << varsta << std::endl;

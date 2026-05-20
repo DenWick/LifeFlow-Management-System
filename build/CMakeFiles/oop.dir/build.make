@@ -301,6 +301,8 @@ oop.exe: CMakeFiles/oop.dir/DatabaseManager.cpp.obj
 oop.exe: CMakeFiles/oop.dir/build.make
 oop.exe: _deps/sqlitecpp-build/libSQLiteCpp.a
 oop.exe: _deps/sqlitecpp-build/sqlite3/libsqlite3.a
+oop.exe: libimgui.a
+oop.exe: _deps/glfw-build/src/libglfw3.a
 oop.exe: CMakeFiles/oop.dir/linkLibs.rsp
 oop.exe: CMakeFiles/oop.dir/objects1.rsp
 oop.exe: CMakeFiles/oop.dir/link.txt

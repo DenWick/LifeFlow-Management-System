@@ -1,6 +1,6 @@
 #include "consultatie.h"
 
-// Constructorul clasei consultatie
+// Constructorul
 consultatie::consultatie(const std::string& d, const std::string& o, const std::string& m, const std::string& pm, const std::string& p, const std::string& pp) : 
 data(d), 
 ora(o), 
@@ -9,7 +9,6 @@ prenume_medic(pm),
 nume_pacient(p), 
 prenume_pacient(pp) {}
 
-// Getters pentru a accesa atributele private ale clasei consultatie
 std::string consultatie::get_data() const {
     return data;
 }

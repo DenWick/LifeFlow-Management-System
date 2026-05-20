@@ -8723,3 +8723,449 @@ events:
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/oop"
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/glfw-src/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-ag825x"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-ag825x"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-ag825x'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_aa119/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_aa119.dir\\build.make CMakeFiles/cmTC_aa119.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-ag825x'
+        Building C object CMakeFiles/cmTC_aa119.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_aa119.dir\\src.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ag825x\\src.c
+        Linking C executable cmTC_aa119.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_aa119.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_aa119.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_aa119.dir/objects.a @CMakeFiles\\cmTC_aa119.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_aa119.dir/objects.a -Wl,--no-whole-archive -o cmTC_aa119.exe -Wl,--out-implib,libcmTC_aa119.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_aa119.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-ag825x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "build/_deps/glfw-src/CMakeLists.txt:111 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-mw0nmj"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-mw0nmj"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-mw0nmj'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_68d7e/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_68d7e.dir\\build.make CMakeFiles/cmTC_68d7e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-mw0nmj'
+        Building C object CMakeFiles/cmTC_68d7e.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_68d7e.dir\\CheckIncludeFile.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mw0nmj\\CheckIncludeFile.c
+        Linking C executable cmTC_68d7e.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_68d7e.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_68d7e.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_68d7e.dir/objects.a @CMakeFiles\\cmTC_68d7e.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_68d7e.dir/objects.a -Wl,--no-whole-archive -o cmTC_68d7e.exe -Wl,--out-implib,libcmTC_68d7e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_68d7e.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-mw0nmj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "build/_deps/glfw-src/CMakeLists.txt:112 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p5g4gf"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p5g4gf"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p5g4gf'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_916a0/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_916a0.dir\\build.make CMakeFiles/cmTC_916a0.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p5g4gf'
+        Building C object CMakeFiles/cmTC_916a0.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_916a0.dir\\CheckIncludeFile.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5g4gf\\CheckIncludeFile.c
+        Linking C executable cmTC_916a0.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_916a0.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_916a0.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_916a0.dir/objects.a @CMakeFiles\\cmTC_916a0.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_916a0.dir/objects.a -Wl,--no-whole-archive -o cmTC_916a0.exe -Wl,--out-implib,libcmTC_916a0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_916a0.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p5g4gf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/glfw-src/CMakeLists.txt:122 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_DEP"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-pf2l04"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-pf2l04"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_DEP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-pf2l04'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_77dc7/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_77dc7.dir\\build.make CMakeFiles/cmTC_77dc7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-pf2l04'
+        Building C object CMakeFiles/cmTC_77dc7.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -o CMakeFiles\\cmTC_77dc7.dir\\src.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pf2l04\\src.c
+        Linking C executable cmTC_77dc7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_77dc7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_77dc7.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_77dc7.dir/objects.a @CMakeFiles\\cmTC_77dc7.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\\cmTC_77dc7.dir/objects.a -Wl,--no-whole-archive -o cmTC_77dc7.exe -Wl,--out-implib,libcmTC_77dc7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_77dc7.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-pf2l04'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/glfw-src/CMakeLists.txt:129 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_ASLR"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-xs2zun"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-xs2zun"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-xs2zun'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_dab4a/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dab4a.dir\\build.make CMakeFiles/cmTC_dab4a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-xs2zun'
+        Building C object CMakeFiles/cmTC_dab4a.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -o CMakeFiles\\cmTC_dab4a.dir\\src.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xs2zun\\src.c
+        Linking C executable cmTC_dab4a.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_dab4a.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_dab4a.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_dab4a.dir/objects.a @CMakeFiles\\cmTC_dab4a.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\\cmTC_dab4a.dir/objects.a -Wl,--no-whole-archive -o cmTC_dab4a.exe -Wl,--out-implib,libcmTC_dab4a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_dab4a.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-xs2zun'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/glfw-src/CMakeLists.txt:136 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_64ASLR"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-867ty2"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-867ty2"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_64ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-867ty2'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_6720c/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6720c.dir\\build.make CMakeFiles/cmTC_6720c.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-867ty2'
+        Building C object CMakeFiles/cmTC_6720c.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -o CMakeFiles\\cmTC_6720c.dir\\src.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-867ty2\\src.c
+        Linking C executable cmTC_6720c.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6720c.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6720c.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_6720c.dir/objects.a @CMakeFiles\\cmTC_6720c.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_6720c.dir/objects.a -Wl,--no-whole-archive -o cmTC_6720c.exe -Wl,--out-implib,libcmTC_6720c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6720c.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-867ty2'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/glfw-src/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-nfqwzz"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-nfqwzz"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-nfqwzz'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_77a42/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_77a42.dir\\build.make CMakeFiles/cmTC_77a42.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-nfqwzz'
+        Building C object CMakeFiles/cmTC_77a42.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_77a42.dir\\src.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfqwzz\\src.c
+        Linking C executable cmTC_77a42.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_77a42.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_77a42.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_77a42.dir/objects.a @CMakeFiles\\cmTC_77a42.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_77a42.dir/objects.a -Wl,--no-whole-archive -o cmTC_77a42.exe -Wl,--out-implib,libcmTC_77a42.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_77a42.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-nfqwzz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "build/_deps/glfw-src/CMakeLists.txt:111 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-9ssbur"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-9ssbur"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-9ssbur'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d53c8/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d53c8.dir\\build.make CMakeFiles/cmTC_d53c8.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-9ssbur'
+        Building C object CMakeFiles/cmTC_d53c8.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_d53c8.dir\\CheckIncludeFile.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ssbur\\CheckIncludeFile.c
+        Linking C executable cmTC_d53c8.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d53c8.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d53c8.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_d53c8.dir/objects.a @CMakeFiles\\cmTC_d53c8.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_d53c8.dir/objects.a -Wl,--no-whole-archive -o cmTC_d53c8.exe -Wl,--out-implib,libcmTC_d53c8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_d53c8.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-9ssbur'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "build/_deps/glfw-src/CMakeLists.txt:112 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-w9agch"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-w9agch"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-w9agch'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3bfe8/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3bfe8.dir\\build.make CMakeFiles/cmTC_3bfe8.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-w9agch'
+        Building C object CMakeFiles/cmTC_3bfe8.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_3bfe8.dir\\CheckIncludeFile.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9agch\\CheckIncludeFile.c
+        Linking C executable cmTC_3bfe8.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3bfe8.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3bfe8.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3bfe8.dir/objects.a @CMakeFiles\\cmTC_3bfe8.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_3bfe8.dir/objects.a -Wl,--no-whole-archive -o cmTC_3bfe8.exe -Wl,--out-implib,libcmTC_3bfe8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3bfe8.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-w9agch'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/glfw-src/CMakeLists.txt:122 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_DEP"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-02czr4"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-02czr4"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_DEP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-02czr4'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ee2d1/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ee2d1.dir\\build.make CMakeFiles/cmTC_ee2d1.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-02czr4'
+        Building C object CMakeFiles/cmTC_ee2d1.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -o CMakeFiles\\cmTC_ee2d1.dir\\src.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02czr4\\src.c
+        Linking C executable cmTC_ee2d1.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ee2d1.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ee2d1.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_ee2d1.dir/objects.a @CMakeFiles\\cmTC_ee2d1.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\\cmTC_ee2d1.dir/objects.a -Wl,--no-whole-archive -o cmTC_ee2d1.exe -Wl,--out-implib,libcmTC_ee2d1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ee2d1.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-02czr4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/glfw-src/CMakeLists.txt:129 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_ASLR"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p16rp4"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p16rp4"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p16rp4'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_a239a/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a239a.dir\\build.make CMakeFiles/cmTC_a239a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p16rp4'
+        Building C object CMakeFiles/cmTC_a239a.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -o CMakeFiles\\cmTC_a239a.dir\\src.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p16rp4\\src.c
+        Linking C executable cmTC_a239a.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a239a.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a239a.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_a239a.dir/objects.a @CMakeFiles\\cmTC_a239a.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\\cmTC_a239a.dir/objects.a -Wl,--no-whole-archive -o cmTC_a239a.exe -Wl,--out-implib,libcmTC_a239a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a239a.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-p16rp4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/glfw-src/CMakeLists.txt:136 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_64ASLR"
+    directories:
+      source: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-0b95xr"
+      binary: "C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-0b95xr"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_64ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-0b95xr'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_b0591/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b0591.dir\\build.make CMakeFiles/cmTC_b0591.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-0b95xr'
+        Building C object CMakeFiles/cmTC_b0591.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -o CMakeFiles\\cmTC_b0591.dir\\src.c.obj -c C:\\Users\\oanad\\Desktop\\Proiect\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0b95xr\\src.c
+        Linking C executable cmTC_b0591.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b0591.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b0591.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_b0591.dir/objects.a @CMakeFiles\\cmTC_b0591.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_b0591.dir/objects.a -Wl,--no-whole-archive -o cmTC_b0591.exe -Wl,--out-implib,libcmTC_b0591.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b0591.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/oanad/Desktop/Proiect/build/CMakeFiles/CMakeScratch/TryCompile-0b95xr'
+        
+      exitCode: 0
+...

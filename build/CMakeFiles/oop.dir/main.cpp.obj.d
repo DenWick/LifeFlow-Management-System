@@ -234,4 +234,18 @@ CMakeFiles/oop.dir/main.cpp.obj: C:\Users\oanad\Desktop\Proiect\main.cpp \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_algo.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
- C:\Users\oanad\Desktop\Proiect\observer.h
+ C:\Users\oanad\Desktop\Proiect\observer.h \
+ C:/Users/oanad/Desktop/Proiect/build/_deps/imgui-src/imgui.h \
+ C:/Users/oanad/Desktop/Proiect/build/_deps/imgui-src/imconfig.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
+ C:/msys64/ucrt64/include/float.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/Users/oanad/Desktop/Proiect/build/_deps/imgui-src/backends/imgui_impl_glfw.h \
+ C:/Users/oanad/Desktop/Proiect/build/_deps/imgui-src/backends/imgui_impl_opengl3.h \
+ C:\Users\oanad\Desktop\Proiect\personalFactory.h \
+ C:\Users\oanad\Desktop\Proiect\asistent.h \
+ C:\Users\oanad\Desktop\Proiect\rezident.h \
+ C:/Users/oanad/Desktop/Proiect/build/_deps/glfw-src/include/GLFW/glfw3.h \
+ C:/msys64/ucrt64/include/GL/gl.h

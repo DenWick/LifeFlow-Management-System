@@ -21,6 +21,7 @@ class spital {
         
     public:
         explicit spital(const std::string& n);
+        spital() = default;
 
         void ataseazaObservator(IObserver* obs) {
             observatori.push_back(obs);
@@ -57,6 +58,9 @@ class spital {
 
         // Afisare informatii spital
         void afisare() const;
+
+        // Stergere consultatie
+        void stergeConsultatie(const std::string& nume_medic, const std::string& prenume_medic, const std::string& nume_pacient, const std::string& prenume_pacient, const std::string& data, const std::string& ora);
 
         ~spital();
 };
